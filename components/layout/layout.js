@@ -1,6 +1,5 @@
-import { SERVER_PROPS_ID } from "next/dist/shared/lib/constants";
 import { Fragment } from "react";
-import MainNavigation from "./main-nagivation";
+import MainNavigation from "./main-navigation";
 
 const Layout = (props) => {
 
