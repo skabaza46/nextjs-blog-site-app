@@ -1,11 +1,13 @@
 import { Fragment } from "react"
+import classes from './featured-posts.module.css';
 
 const FeaturedPosts = () => {
 
     return (
-        <Fragment>
-            <h1> Featured Posts</h1>
-        </Fragment>
+        <section className={classes.latest}>
+            <h2> Featured Posts</h2>
+            
+        </section>
     )
 }
 
