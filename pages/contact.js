@@ -1,13 +1,13 @@
 const { Fragment } = require("react")
 
-const HomePage = () => {
+const ContactPage = () => {
 
   return (
     <Fragment>
-      <h1>Home Page</h1>
+      <h1>Contact Page</h1>
     </Fragment>
   )
 };
 
 
-export default HomePage;
+export default ContactPage;

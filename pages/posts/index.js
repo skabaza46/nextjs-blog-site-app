@@ -1,13 +1,13 @@
 const { Fragment } = require("react")
 
-const HomePage = () => {
+const AllPostsPage = () => {
 
   return (
     <Fragment>
-      <h1>Home Page</h1>
+      <h1>All Posts Page</h1>
     </Fragment>
   )
 };
 
 
-export default HomePage;
+export default AllPostsPage;
