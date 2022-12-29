@@ -1,11 +1,12 @@
+import PostContent from "../../components/posts/post-detail/post-content";
+
 const { Fragment } = require("react")
 
-const PostDetailPage = () => {
+const PostDetailPage = (props) => {
 
   return (
-    <Fragment>
-      <h1>Post Detail Page</h1>
-    </Fragment>
+    
+    <PostContent />
   )
 };
 
