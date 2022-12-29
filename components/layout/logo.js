@@ -1,11 +1,13 @@
 import { Fragment } from "react"
 
+import classes from './logo.module.css';
+
 const Logo = () => {
 
     return (
-        <Fragment>
-
-        </Fragment>
+        <div className={classes.logo}>
+            Simen's Next Blog App
+        </div>
     )
 }
 

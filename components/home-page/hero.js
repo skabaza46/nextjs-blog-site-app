@@ -15,7 +15,7 @@ const Hero = () => {
                     height={300}/>
             </div>
 
-            <h1> Hi, I'm Simen Kabaza</h1>
+            <h1> Hi, I'm Simen</h1>
 
             <p>I blog about web development - escpecially frontend frameworks 
                 like Angular or React and back-end technologies like Django REST, 
