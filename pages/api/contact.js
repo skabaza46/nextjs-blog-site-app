@@ -3,12 +3,12 @@ const handler = (req, res) => {
 
     if (req.method === 'POST'){
 
-        const { email, name, message } = req.body;
+        const { email, name, message } = JSON.parse(req.body);
 
         if (!email || 
-            email.includes("@" || 
+            !email.includes("@" || 
             !name || 
-            name.trim() ===''|| 
+            name.trim() === ''|| 
             !message || 
             message.trim() === '')){
 
