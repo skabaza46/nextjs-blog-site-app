@@ -1,12 +1,12 @@
+import ContactForm from "../components/contact/contact-form";
+
 const { Fragment } = require("react")
 
 const ContactPage = () => {
 
   return (
-    <Fragment>
-      <h1>Contact Page</h1>
-    </Fragment>
-  )
+      <ContactForm />
+    )
 };
 
 
